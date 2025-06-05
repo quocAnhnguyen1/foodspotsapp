@@ -1,3 +1,5 @@
+[![CI](https://github.com/quocAnhnguyen1/foodspotsapp/actions/workflows/tests.yml/badge.svg)](https://github.com/quocAnhnguyen1/foodspotsapp/actions/workflows/tests.yml)
+
 # foodspots
 
 The foodspotsapp is a collection of food spots, that have been reviewed by others or by yourself.
