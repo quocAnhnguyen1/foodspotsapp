@@ -9,8 +9,7 @@ import webtech.foodspotsapp.Repositories.FoodspotRepository;
 
 @RestController
 public class FoodspotsController {
-  @Autowired
-  FoodspotRepository foodspotRepository;
+  @Autowired FoodspotRepository foodspotRepository;
 
   @GetMapping(value = "/foodspots", produces = MediaType.APPLICATION_JSON_VALUE)
   public Iterable<Foodspot> foodspots() {
