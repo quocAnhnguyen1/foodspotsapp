@@ -15,7 +15,7 @@ public class CorsConfig {
       public void addCorsMappings(CorsRegistry registry) {
         registry
             .addMapping("/**")
-            .allowedOrigins("https://foodspotsapp-backend.onrender.com")
+            .allowedOrigins("https://foodspotsapp-frontend.onrender.com")
             .allowedMethods("GET", "POST", "PUT", "DELETE")
             .allowedHeaders("*");
       }
