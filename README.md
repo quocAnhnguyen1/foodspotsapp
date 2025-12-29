@@ -1,4 +1,4 @@
-[![CI](https://github.com/quocAnhnguyen1/foodspotsapp/actions/workflows/tests.yml/badge.svg)](https://github.com/quocAnhnguyen1/foodspotsapp/actions/workflows/tests.yml)
+[![CI](https://github.com/quocAnhnguyen1/foodspotsapp/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/quocAnhnguyen1/foodspotsapp/actions/workflows/tests.yml)
 
 # foodspots
 
