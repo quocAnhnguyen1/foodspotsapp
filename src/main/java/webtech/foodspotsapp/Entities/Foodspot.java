@@ -10,6 +10,10 @@ public class Foodspot {
   @Id @GeneratedValue private Long id;
   private String name;
 
+  //  private String address;
+  //  private String review;
+  //  private String rating;
+
   // Getter & Setter
   public Long getId() {
     return id;
@@ -26,4 +30,28 @@ public class Foodspot {
   public void setName(String name) {
     this.name = name;
   }
+
+  //  public String getAddress() {
+  //    return address;
+  //  }
+  //
+  //  public void setAddress(String address) {
+  //    this.address = address;
+  //  }
+  //
+  //  public String getReview() {
+  //    return review;
+  //  }
+  //
+  //  public void setReview(String review) {
+  //    this.review = review;
+  //  }
+  //
+  //  public String getRating() {
+  //    return rating;
+  //  }
+  //
+  //  public void setRating(String rating) {
+  //    this.rating = rating;
+  //  }
 }
