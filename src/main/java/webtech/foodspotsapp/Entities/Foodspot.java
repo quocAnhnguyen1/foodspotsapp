@@ -2,12 +2,18 @@ package webtech.foodspotsapp.Entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
 public class Foodspot {
 
-  @Id @GeneratedValue private Long id;
+  public Foodspot() {}
+
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  private Long id;
+
   private String name;
 
   //  private String address;
